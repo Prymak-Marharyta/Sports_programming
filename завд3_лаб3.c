@@ -13,9 +13,7 @@ int main() {
     hours = numofseconds / 3600;
 
     int remainingseconds = numofseconds % 3600;
-
     minutes = remainingseconds / 60;
-
     seconds = remainingseconds % 60;
 
     printf("%d seconds = %d hours, %d minutes, %d seconds\n",
